@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: springboot-technical-eval
+
+# SOAP client settings.
+# Local default endpoint points to mock-server.js, but every value can be overridden per environment.
+soap:
+  transfers:
+    endpoint: ${SOAP_TRANSFERS_ENDPOINT:http://localhost:3003/servicios/transferenciasV2}
+    password: ${SOAP_TRANSFERS_PASSWORD:changeme}
+    connect-timeout-ms: ${SOAP_TRANSFERS_CONNECT_TIMEOUT_MS:5000}
+    read-timeout-ms: ${SOAP_TRANSFERS_READ_TIMEOUT_MS:8000}

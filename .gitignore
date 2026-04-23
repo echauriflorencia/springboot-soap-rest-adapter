@@ -1,0 +1,37 @@
+# Maven
+target/
+*.jar
+*.war
+*.rar
+*.ear
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (para mock-server)
+node_modules/
+npm-debug.log
+
+# Java
+*.class
+.classpath
+.project
+.settings/
+
+# Build
+*.o
+*.so
+build/
+dist/
+
+# Misc
+.env
+.env.local
